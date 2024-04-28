@@ -8,7 +8,7 @@ import cohere
 from db import db
 
 # Cohere API Key
-CORAL_KEY= os.environ['API_KEY']
+CORAL_KEY= os.environ['CORAL_KEY']
 # Telegram Auth API ID
 API_ID = os.environ['API_ID']
 # Telegram Auth API HASH
