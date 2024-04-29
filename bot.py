@@ -25,7 +25,7 @@ app = Client("my_business_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_
 
 co = cohere.Client(CORAL_KEY)
 
-@app.on_bot_business_message(filters.incoming)
+@app.on_bot_business_message(filters.incoming & filters.text)
 async def start(client: Client, message: Message):
     await message.reply_chat_action(enums.ChatAction.TYPING)
 
