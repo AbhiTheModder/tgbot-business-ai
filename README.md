@@ -2,8 +2,6 @@
 
 **NOTE:** Telegram Business is a feature available to users of telegram premium only
 
-- If you're a telegram premium user and want to use this without hosting yourself you can use this bot [@LimitBreakerBot](https://t.me/LimitBreakerBot) which is currently running on it, but i can't gurantee you until when it'll be running :D
-
 ## Features
 
 - Cohere Coral Command-R-Plus AI integration for advanced natural language processing and chatbot responses.
